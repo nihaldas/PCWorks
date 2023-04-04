@@ -73,8 +73,8 @@ user_type = st.sidebar.radio("", ["Welcome", "Buyer", "Seller"])
 if user_type == "Welcome":
     html_code = """
     <div style="background-color:#F8F8F8;padding:10px;border-radius:5px">
-        <h2 style="color:#3D405B;">VyaparX PC Category</h2>
-        <p style="color:#4C4C4C;">Welcome to VyaparX, your one stop place for all 
+        <h2 style="color:#3D405B;">PCWorks</h2>
+        <p style="color:#4C4C4C;">Welcome to PCWorks, your one stop place for all 
         your custom PC needs. From buying new or old parts to selling, from helping you build 
         your own PC to lifetime support. We provide all the services</p>
     </div>
@@ -85,8 +85,15 @@ if user_type == "Welcome":
 elif user_type == "Buyer":
     html_code = """
     <div style="background-color:#F8F8F8;padding:10px;border-radius:5px">
-        <h2 style="color:#3D405B;">VyaparX PC Forge Station</h2>
-        <p style="color:#4C4C4C;">At our custom PC builder station ie Titans Forge, we believe that building a custom PC should be a seamless and enjoyable experience for everyone. Our platform will help you to determine your exact needs and requirements, whether you're a gamer, a machine learning professional, or a crypto miner. We'll help you choose the best components for your build, including the CPU, GPU, RAM, storage, and other peripherals, ensuring that everything is perfectly matched to your needs and budget..</p>
+        <h2 style="color:#3D405B;">PCWorks Build Station</h2>
+        <p style="color:#4C4C4C;">At our custom PC builder station, 
+        we believe that building a custom PC should be a seamless and 
+        enjoyable experience for everyone. Our platform will help you to
+          determine your exact needs and requirements, whether you're a gamer, 
+          a machine learning professional, or a crypto miner. 
+          We'll help you choose the best components for your build, 
+          including the CPU, GPU, RAM, storage, and other peripherals, 
+          ensuring that everything is perfectly matched to your needs and budget..</p>
     </div>
     """
     # Display the HTML code in your Streamlit app
