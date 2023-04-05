@@ -70,5 +70,54 @@
       "memory_clock": "19.5 Gbps",
       "memory_bandwidth": "936 GB/s",
       "power_consumption": "350 W"
+    },
+    "AMD Radeon RX 5500 XT": {
+        "Price": 199,
+        "Architecture": "RDNA",
+        "Core Clock": "1717 MHz",
+        "Memory Clock": "14 Gbps",
+        "Memory Size": "4GB or 8GB GDDR6",
+        "Memory Interface": "128-bit",
+        "TDP": "130W"
+    },
+    "AMD Radeon RX 5600 XT": {
+        "Price": 279,
+        "Architecture": "RDNA",
+        "Core Clock": "1375 MHz",
+        "Boost Clock": "1560 MHz",
+        "Memory Clock": "14 Gbps",
+        "Memory Size": "6GB GDDR6",
+        "Memory Interface": "192-bit",
+        "TDP": "160W"
+    },
+    "AMD Radeon RX 5700 XT": {
+        "Price": 449,
+        "Architecture": "RDNA",
+        "Core Clock": "1605 MHz",
+        "Boost Clock": "1905 MHz",
+        "Memory Clock": "14 Gbps",
+        "Memory Size": "8GB GDDR6",
+        "Memory Interface": "256-bit",
+        "TDP": "225W"
+    },
+    "AMD Radeon RX 6800": {
+        "Price": 579,
+        "Architecture": "RDNA 2",
+        "Core Clock": "1700 MHz",
+        "Boost Clock": "2105 MHz",
+        "Memory Clock": "16 Gbps",
+        "Memory Size": "16GB GDDR6",
+        "Memory Interface": "256-bit",
+        "TDP": "250W"
+    },
+    "AMD Radeon RX 6900 XT": {
+        "Price": 999,
+        "Architecture": "RDNA 2",
+        "Core Clock": "1825 MHz",
+        "Boost Clock": "2250 MHz",
+        "Memory Clock": "16 Gbps",
+        "Memory Size": "16GB GDDR6",
+        "Memory Interface": "256-bit",
+        "TDP": "300W"
     }
 }
