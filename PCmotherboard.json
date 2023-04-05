@@ -1,0 +1,121 @@
+{
+    "ASUS ROG Strix X570-E Gaming": {
+      "Price": 299,
+      "Socket": "AM4",
+      "Chipset": "AMD X570",
+      "Form Factor": "ATX",
+      "Memory Support": "DDR4 up to 128GB, 4600+ MHz",
+      "Expansion Slots": "3 x PCIe 4.0 x16, 2 x PCIe 4.0 x1",
+      "Storage": "8 x SATA III, 2 x M.2",
+      "Networking": "Intel Wi-Fi 6 AX200, 2.5Gb LAN",
+      "Audio": "ROG SupremeFX 8-Channel High Definition Audio CODEC S1220A",
+      "USB Ports": "8 x USB 3.2 Gen 2, 4 x USB 3.2 Gen 1, 4 x USB 2.0",
+      "RGB Lighting": "Yes"
+    },
+    "Gigabyte AORUS X570 Master": {
+      "Price": 359,
+      "Socket": "AM4",
+      "Chipset": "AMD X570",
+      "Form Factor": "ATX",
+      "Memory Support": "DDR4 up to 128GB, 4400+ MHz",
+      "Expansion Slots": "3 x PCIe 4.0 x16, 2 x PCIe 4.0 x1",
+      "Storage": "6 x SATA III, 3 x M.2",
+      "Networking": "Intel Wi-Fi 6 AX200, AQUANTIA 10GbE LAN, Intel GbE LAN",
+      "Audio": "Realtek ALC1220-VB codec, ESSential USB DAC",
+      "USB Ports": "3 x USB 3.2 Gen 2, 4 x USB 3.2 Gen 1, 4 x USB 2.0",
+      "RGB Lighting": "Yes"
+    },
+    "MSI MEG X570 UNIFY": {
+      "Price": 299,
+      "Socket": "AM4",
+      "Chipset": "AMD X570",
+      "Form Factor": "ATX",
+      "Memory Support": "DDR4 up to 128GB, 4600+ MHz",
+      "Expansion Slots": "3 x PCIe 4.0 x16, 2 x PCIe 4.0 x1",
+      "Storage": "4 x SATA III, 3 x M.2",
+      "Networking": "2.5Gb LAN, Wi-Fi 6 AX200",
+      "Audio": "Realtek ALC1220 Codec",
+      "USB Ports": "4 x USB 3.2 Gen 2, 6 x USB 3.2 Gen 1, 6 x USB 2.0",
+      "RGB Lighting": "No"
+    },
+    "ASRock X570 Taichi": {
+        "Price": 299,
+        "Socket": "AM4",
+        "Chipset": "AMD X570",
+        "Form Factor": "ATX",
+        "Memory Support": "DDR4, 4666+(OC) MHz, 4 DIMM slots (128GB max)",
+        "Expansion Slots": "3 x PCIe 4.0 x16, 2 x PCIe 4.0 x1",
+        "Storage": "8 x SATA III, 3 x M.2 (PCIe 4.0 x4 or SATA III)",
+        "Networking": "2.5 Gigabit LAN, Wi-Fi 6 (802.11ax), Bluetooth 5.0",
+        "Audio": "7.1 CH HD Audio (Realtek ALC1220 Audio Codec), Nahimic Audio",
+        "USB Ports": "3 x USB 3.2 Gen 2 (Type-A+C), 8 x USB 3.2 Gen 1, 6 x USB 2.0",
+        "RGB Lighting": "RGB LED header, addressable RGB LED header"
+      },
+      "ASUS Prime X570-Pro": {
+        "Price": 249,
+        "Socket": "AM4",
+        "Chipset": "AMD X570",
+        "Form Factor": "ATX",
+        "Memory Support": "DDR4, 5100+(OC) MHz, 4 DIMM slots (128GB max)",
+        "Expansion Slots": "2 x PCIe 4.0 x16 (x16 or dual x8), 1 x PCIe 4.0 x16 (x4 mode), 3 x PCIe 4.0 x1",
+        "Storage": "8 x SATA III, 2 x M.2 (PCIe 4.0 x4 or SATA III)",
+        "Networking": "Intel I211-AT Gigabit Ethernet, Wi-Fi 6 (802.11ax), Bluetooth 5.0",
+        "Audio": "8-Channel High Definition Audio (Realtek ALC1220 Audio Codec), ASUS exclusive DTS Custom for gaming headsets",
+        "USB Ports": "3 x USB 3.2 Gen 2 (Type-A+C), 8 x USB 3.2 Gen 1, 4 x USB 2.0",
+        "RGB Lighting": "Aura Sync RGB header"
+    },
+      "Gigabyte B550I AORUS PRO AX":
+        {
+        "Price": 179,
+        "Socket": "AM4",
+        "Chipset": "B550",
+        "Form Factor": "Mini-ITX",
+        "Memory Support": "DDR4, up to 64GB, 5000MHz+",
+        "Expansion Slots": "1 x PCIe 4.0 x16",
+        "Storage": "1 x M.2 slot (supports PCIe 4.0 x4 and SATA3), 4 x SATA 6Gb/s ports",
+        "Networking": "Intel Wi-Fi 6 802.11ax, Bluetooth 5.1, 1 x Realtek 2.5GbE LAN",
+        "Audio": "Realtek ALC1220-VB codec, ESSential USB DAC",
+        "USB Ports": "2 x USB 3.2 Gen 2 (Type-A and Type-C on the back panel), 4 x USB 3.2 Gen 1 (2 ports on the back panel, 2 ports available through the internal USB header), 4 x USB 2.0 (available through the internal USB header)",
+        "RGB Lighting": "RGB Fusion 2.0"
+    },
+    "ASRock B550M Steel Legend":
+    {
+    "Price": 119,
+    "Socket": "AM4",
+    "Chipset": "B550",
+    "Form Factor": "Micro-ATX",
+    "Memory Support": "DDR4, up to 128GB, 4733MHz+ (OC)",
+    "Expansion Slots": "1 x PCIe 4.0 x16, 1 x PCIe 3.0 x16, 1 x PCIe 3.0 x1",
+    "Storage": "1 x Hyper M.2 socket (supports PCIe 4.0 x4), 6 x SATA 6Gb/s ports",
+    "Networking": "Realtek 2.5G LAN",
+    "Audio": "7.1 CH HD Audio (Realtek ALC1200 Audio Codec)",
+    "USB Ports": "1 x USB 3.2 Gen2 Type-C (rear), 1 x USB 3.2 Gen2 Type-A (rear), 2 x USB 3.2 Gen1 Type-A (rear), 4 x USB 2.0 (2 front, 2 rear)",
+    "RGB Lighting": "Polychrome RGB"
+    },
+    "MSI MAG B550 Tomahawk": {
+        "Price": 179,
+        "Socket": "AM4",
+        "Chipset": "AMD B550",
+        "Form Factor": "ATX",
+        "Memory Support": "4 x DIMM, Max. 128GB, DDR4",
+        "Expansion Slots": "1 x PCIe 4.0 x16 (with Ryzen CPU), 1 x PCIe 3.0 x16 (with Ryzen CPU), 2 x PCIe 3.0 x1, 1 x M.2 slot (Key M, Type 2242/2260/2280/22110, PCIe 4.0 x4/SATA), 1 x M.2 slot (Key M, Type 2242/2260/2280, PCIe 3.0 x4/SATA)",
+        "Storage": "6 x SATA 6Gb/s ports, RAID 0, 1, 10, 1 x M.2 slot (Key M, Type 2242/2260/2280/22110, PCIe 4.0 x4/SATA), 1 x M.2 slot (Key M, Type 2242/2260/2280, PCIe 3.0 x4/SATA)",
+        "Networking": "1 x Realtek RTL8125B 2.5G LAN controller",
+        "Audio": "Realtek ALC1200 Codec",
+        "USB Ports": "2 x USB 3.2 Gen 2 Type-A ports (rear), 1 x USB 3.2 Gen 2x2 Type-C port (rear), 6 x USB 3.2 Gen 1 ports (2 Type-A, 4 Type-C) (2 rear, 4 via internal header), 6 x USB 2.0 ports (2 Type-A, 4 via internal header)",
+        "RGB Lighting": "Yes"
+    },
+    "ASUS ROG Strix B550-F Gaming": {
+        "Price": 189,
+        "Socket": "AM4",
+        "Chipset": "AMD B550",
+        "Form Factor": "ATX",
+        "Memory Support": "4 x DIMM, Max. 128GB, DDR4 5100(O.C)/4800(O.C.)/4600(O.C)/4400(O.C)/4266(O.C.)/4133(O.C.)/4000(O.C.)/3866(O.C.)/3600(O.C.)/3466(O.C.)/3200/3000/2800/2666/2400/2133 MHz Un-buffered Memory",
+        "Expansion Slots": "1 x PCIe 4.0 x16 (x16 mode), 1 x PCIe 3.0 x16 (x4 mode), 3 x PCIe 3.0 x1",
+        "Storage": "1 x M.2_1 socket 3, with M Key, Type 2242/2260/2280 (PCIe 4.0 x4 and SATA modes) storage devices support, 1 x M.2_2 socket 3, with M Key, Type 2242/2260/2280/22110(PCIE 3.0 x4 and SATA modes) storage devices support, 6 x SATA 6Gb/s ports",
+        "Networking": "Realtek RTL8125B 2.5Gb Ethernet, ASUS LANGuard",
+        "Audio": "Realtek ALC S1220A 8-Channel High Definition Audio CODEC",
+        "USB Ports": "Rear USB Port (Total 8): 2 x USB 3.2 Gen 2 port(s)(1 x Type-A +1 x USB Type-C), 4 x USB 3.2 Gen 1 port(s)(4 x Type-A), 2 x USB 2.0 port(s)(2 x Type-A), Front USB Port (Total 6): 1 x USB 3.2 Gen 1 port(s)(1 x Type-C), 5 x USB 3.2 Gen 1 port(s)(4 x Type-A+1 x Type-C)",
+        "RGB Lighting": "Aura Sync RGB lighting"
+        }
+}

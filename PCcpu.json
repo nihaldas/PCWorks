@@ -1,0 +1,112 @@
+{
+    "Intel Core i5-11600K": {
+      "Price": 299,
+      "Cores": 6,
+      "Threads": 12,
+      "Base Clock": "3.9 GHz",
+      "Max Boost Clock": "4.9 GHz",
+      "Cache": "12MB Intel Smart Cache",
+      "TDP": "125W",
+      "Socket": "LGA 1200",
+      "Integrated Graphics": "Intel UHD Graphics 750"
+    },
+    "Intel Core i7-11700K": {
+      "Price": 419,
+      "Cores": 8,
+      "Threads": 16,
+      "Base Clock": "3.6 GHz",
+      "Max Boost Clock": "5.0 GHz",
+      "Cache": "16MB Intel Smart Cache",
+      "TDP": "125W",
+      "Socket": "LGA 1200",
+      "Integrated Graphics": "Intel UHD Graphics 750"
+    },
+    "Intel Core i9-11900K": {
+      "Price": 599,
+      "Cores": 8,
+      "Threads": 16,
+      "Base Clock": "3.5 GHz",
+      "Max Boost Clock": "5.3 GHz",
+      "Cache": "16MB Intel Smart Cache",
+      "TDP": "125W",
+      "Socket": "LGA 1200",
+      "Integrated Graphics": "Intel UHD Graphics 750"
+    },
+    "AMD Ryzen 5 5600X": {
+      "Price": 299,
+      "Cores": 6,
+      "Threads": 12,
+      "Base Clock": "3.7 GHz",
+      "Max Boost Clock": "4.6 GHz",
+      "Cache": "35MB",
+      "TDP": "65W",
+      "Socket": "AM4",
+      "Integrated Graphics": "None"
+    },
+    "AMD Ryzen 5 5600G": {
+      "Price": 259,
+      "Cores": 6,
+      "Threads": 12,
+      "Base Clock": "3.9 GHz",
+      "Max Boost Clock": "4.4 GHz",
+      "Cache": "19MB",
+      "TDP": "65W",
+      "Socket": "AM4",
+      "Integrated Graphics": "AMD Radeon Graphics"
+    },
+    "AMD Ryzen 7 5800X": {
+      "Price": 449,
+      "Cores": 8,
+      "Threads": 16,
+      "Base Clock": "3.8 GHz",
+      "Max Boost Clock": "4.7 GHz",
+      "Cache": "36MB",
+      "TDP": "105W",
+      "Socket": "AM4",
+      "Integrated Graphics": "None"
+    },
+    "AMD Ryzen 7 5800G": {
+      "Price": 399,
+      "Cores": 8,
+      "Threads": 16,
+      "Base Clock": "3.8 GHz",
+      "Max Boost Clock": "4.6 GHz",
+      "Cache": "20MB",
+      "TDP": "65W",
+      "Socket": "AM4",
+      "Integrated Graphics": "AMD Radeon Graphics"
+    },
+    "AMD Ryzen 9 5900X": {
+        "Price": 549,
+        "Cores": 12,
+        "Threads": 24,
+        "Base Clock": "3.7 GHz",
+        "Max Boost Clock": "4.8 GHz",
+        "Cache": "70MB",
+        "TDP": "105W",
+        "Socket": "AM4",
+        "Integrated Graphics": "None"
+      },
+      "AMD Ryzen 9 5950X": {
+        "Price": 799,
+        "Cores": 16,
+        "Threads": 32,
+        "Base Clock": "3.4 GHz",
+        "Max Boost Clock": "4.9 GHz",
+        "Cache": "72MB",
+        "TDP": "105W",
+        "Socket": "AM4",
+        "Integrated Graphics": "None"
+      },
+      "Apple M1": {
+        "Price": 699,
+        "Cores": 8,
+        "Threads": 8,
+        "Base Clock": "3.2 GHz",
+        "Max Boost Clock": "3.2 GHz",
+        "Cache": "12MB L2 cache",
+        "TDP": "Not disclosed",
+        "Socket": "BGA",
+        "Integrated Graphics": "Apple-designed integrated GPU"
+      }
+}
