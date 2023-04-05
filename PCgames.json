@@ -1,0 +1,218 @@
+{
+    "Action": [
+        {
+            "title": "Grand Theft Auto V",
+            "developer": "Rockstar North",
+            "publisher": "Rockstar Games",
+            "release_date": "2013-09-17",
+            "platforms": ["Windows", "PlayStation 3", "PlayStation 4", "Xbox 360", "Xbox One"]
+        },
+        {
+            "title": "Doom Eternal",
+            "developer": "id Software",
+            "publisher": "Bethesda Softworks",
+            "release_date": "2020-03-20",
+            "platforms": ["Windows", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S", "Nintendo Switch"]
+        },
+        {
+            "title": "Resident Evil 2 (2019)",
+            "developer": "Capcom",
+            "publisher": "Capcom",
+            "release_date": "2019-01-25",
+            "platforms": ["Windows", "PlayStation 4", "Xbox One"]
+        },
+        {
+            "title": "Assassin's Creed Odyssey",
+            "developer": "Ubisoft Quebec",
+            "publisher": "Ubisoft",
+            "release_date": "2018-10-05",
+            "platforms": ["Windows", "PlayStation 4", "Xbox One"]
+        },
+        {
+            "title": "Sekiro: Shadows Die Twice",
+            "developer": "FromSoftware",
+            "publisher": "Activision",
+            "release_date": "2019-03-22",
+            "platforms": ["Windows", "PlayStation 4", "Xbox One"]
+        },
+        {
+            "title": "Call of Duty: Modern Warfare (2019)",
+            "developer": "Infinity Ward",
+            "publisher": "Activision",
+            "release_date": "2019-10-25",
+            "platforms": ["Windows", "PlayStation 4", "Xbox One"]
+        },
+        {
+            "title": "Control",
+            "developer": "Remedy Entertainment",
+            "publisher": "505 Games",
+            "release_date": "2019-08-27",
+            "platforms": ["Windows", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S", "Nintendo Switch"]
+        },
+        {
+            "title": "God of War (2018)",
+            "developer": "Santa Monica Studio",
+            "publisher": "Sony Interactive Entertainment",
+            "release_date": "2018-04-20",
+            "platforms": ["PlayStation 4"]
+        },
+        {
+            "title": "Cyberpunk 2077",
+            "developer": "CD Projekt Red",
+            "publisher": "CD Projekt",
+            "release_date": "2020-12-10",
+            "platforms": ["Windows", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S", "Google Stadia"]
+        },
+        {
+            "title": "Dying Light 2",
+            "developer": "Techland",
+            "publisher": "Techland Publishing",
+            "release_date": "TBD",
+            "platforms": ["Windows", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"]
+        }
+    ],
+    "Adventure": [
+        {
+            "title": "The Legend of Zelda: Breath of the Wild",
+            "developer": "Nintendo EPD",
+            "publisher": "Nintendo",
+            "release_date": "2017-03-03",
+            "platforms": ["Nintendo Switch", "Wii U"]
+        },
+        {
+            "title": "Uncharted 4: A Thief's End",
+            "developer": "Naughty Dog",
+            "publisher": "Sony Computer Entertainment",
+            "release_date": "2016-05-10",
+            "platforms": ["PlayStation 4"]
+        },
+        {
+            "title": "Horizon Zero Dawn",
+            "developer": "Guerrilla Games",
+            "publisher": "Sony Interactive Entertainment",
+            "release_date": "2017-02-28",
+            "platforms": ["PlayStation 4", "Windows"]
+        },
+        {
+            "title": "The Witcher 3: Wild Hunt",
+            "developer": "CD Projekt Red",
+            "publisher": "CD Projekt",
+            "release_date": "2015-05-19",
+            "platforms": ["Windows", "PlayStation 4", "Xbox One", "Nintendo Switch"]
+        },
+        {
+            "title": "Journey",
+            "developer": "thatgamecompany",
+            "publisher": "Sony Computer Entertainment",
+            "release_date": "2012-03-13",
+            "platforms": ["PlayStation 3", "PlayStation 4"]
+        },
+        {
+            "title": "Firewatch",
+            "developer": "Campo Santo",
+            "publisher": "Campo Santo, Panic",
+            "release_date": "2016-02-09",
+            "platforms": ["Windows", "PlayStation 4", "Xbox One", "Nintendo Switch"]
+        },
+        {
+            "title": "Life is Strange",
+            "developer": "Dontnod Entertainment",
+            "publisher": "Square Enix",
+            "release_date": "2015-01-30",
+            "platforms": ["Windows", "PlayStation 3", "PlayStation 4", "Xbox 360", "Xbox One", "iOS", "Android"]
+        },
+        {
+            "title": "Inside",
+            "developer": "Playdead",
+            "publisher": "Playdead",
+            "release_date": "2016-06-29",
+            "platforms": ["Windows", "PlayStation 4", "Xbox One", "Nintendo Switch", "iOS"]
+        },
+        {
+            "title": "Gris",
+            "developer": "Nomada Studio",
+            "publisher": "Devolver Digital",
+            "release_date": "2018-12-13",
+            "platforms": ["Windows", "macOS", "Nintendo Switch", "PlayStation 4", "iOS"]
+        },
+        {
+            "title": "The Last of Us Part II",
+            "developer": "Naughty Dog",
+            "publisher": "Sony Interactive Entertainment",
+            "release_date": "2020-06-19",
+            "platforms": ["PlayStation 4"]
+        }
+    ],
+    "Strategy": [
+        {
+            "title": "Civilization VI",
+            "developer": "Firaxis Games",
+            "publisher": "2K Games",
+            "release_date": "2016-10-21",
+            "platforms": ["Windows", "macOS", "Linux", "iOS", "Nintendo Switch", "PlayStation 4", "Xbox One"]
+        },
+        {
+            "title": "Stellaris",
+            "developer": "Paradox Development Studio",
+            "publisher": "Paradox Interactive",
+            "release_date": "2016-05-09",
+            "platforms": ["Windows", "macOS", "Linux", "Xbox One", "PlayStation 4"]
+        },
+        {
+            "title": "Total War: Warhammer II",
+            "developer": "Creative Assembly",
+            "publisher": "Sega",
+            "release_date": "2017-09-28",
+            "platforms": ["Windows", "macOS", "Linux"]
+        },
+        {
+            "title": "Europa Universalis IV",
+            "developer": "Paradox Development Studio",
+            "publisher": "Paradox Interactive",
+            "release_date": "2013-08-13",
+            "platforms": ["Windows", "macOS", "Linux"]
+        },
+        {
+            "title": "XCOM 2",
+            "developer": "Firaxis Games",
+            "publisher": "2K Games",
+            "release_date": "2016-02-05",
+            "platforms": ["Windows", "macOS", "Linux", "PlayStation 4", "Xbox One", "Nintendo Switch", "iOS", "Android"]
+        },
+        {
+            "title": "Company of Heroes 2",
+            "developer": "Relic Entertainment",
+            "publisher": "Sega",
+            "release_date": "2013-06-25",
+            "platforms": ["Windows", "macOS", "Linux"]
+        },
+        {
+            "title": "Age of Empires II: Definitive Edition",
+            "developer": "Forgotten Empires",
+            "publisher": "Xbox Game Studios",
+            "release_date": "2019-11-14",
+            "platforms": ["Windows", "macOS"]
+        },
+        {
+            "title": "Crusader Kings III",
+            "developer": "Paradox Development Studio",
+            "publisher": "Paradox Interactive",
+            "release_date": "2020-09-01",
+            "platforms": ["Windows", "macOS", "Linux", "Xbox Game Pass for PC"]
+        },
+        {
+            "title": "Total War: Rome II",
+            "developer": "Creative Assembly",
+            "publisher": "Sega",
+            "release_date": "2013-09-03",
+            "platforms": ["Windows", "macOS", "Linux"]
+        },
+        {
+            "title": "Northgard",
+            "developer": "Shiro Games",
+            "publisher": "Shiro Games",
+            "release_date": "2018-03-07",
+            "platforms": ["Windows", "macOS", "Linux", "PlayStation 4", "Xbox One", "Nintendo Switch"]
+        }
+    ]
+}

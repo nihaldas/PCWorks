@@ -1,0 +1,128 @@
+{
+    "3D Modeling": [
+        {
+            "name": "Autodesk Maya",
+            "developer": "Autodesk",
+            "website": "https://www.autodesk.com/products/maya/overview",
+            "gpu_requirements": "NVIDIA® graphics card with 4 GB or more VRAM; OpenGL 4.5-capable GPU",
+            "price": "Subscription-based",
+            "release_date": "1998"
+        },
+        {
+            "name": "Blender",
+            "developer": "Blender Foundation",
+            "website": "https://www.blender.org/",
+            "gpu_requirements": "NVIDIA or AMD graphics card with 4 GB or more VRAM; OpenGL 3.3 or higher",
+            "price": "Free and open source",
+            "release_date": "1998"
+        },
+        {
+            "name": "Cinema 4D",
+            "developer": "Maxon",
+            "website": "https://www.maxon.net/en/cinema-4d/",
+            "gpu_requirements": "NVIDIA or AMD graphics card with 4 GB or more VRAM",
+            "price": "Subscription-based",
+            "release_date": "1990"
+        },
+        {
+            "name": "3DS Max",
+            "developer": "Autodesk",
+            "website": "https://www.autodesk.com/products/3ds-max/overview",
+            "gpu_requirements": "NVIDIA or AMD graphics card with 4 GB or more VRAM",
+            "price": "Subscription-based",
+            "release_date": "1990"
+        },
+        {
+            "name": "ZBrush",
+            "developer": "Pixologic",
+            "website": "https://pixologic.com/zbrush/",
+            "gpu_requirements": "NVIDIA or AMD graphics card with 4 GB or more VRAM",
+            "price": "Perpetual license or subscription-based",
+            "release_date": "1999"
+        }
+    ],
+    "Machine Learning": [
+        {
+            "name": "TensorFlow",
+            "developer": "Google Brain Team",
+            "website": "https://www.tensorflow.org/",
+            "gpu_requirements": "NVIDIA graphics card with CUDA Compute Capability 3.5 or higher",
+            "price": "Free and open source",
+            "release_date": "2015"
+        },
+        {
+            "name": "PyTorch",
+            "developer": "Facebook AI Research",
+            "website": "https://pytorch.org/",
+            "gpu_requirements": "NVIDIA graphics card with CUDA Compute Capability 3.5 or higher",
+            "price": "Free and open source",
+            "release_date": "2016"
+        },
+        {
+            "name": "Caffe",
+            "developer": "Berkeley AI Research (BAIR) and by community contributors",
+            "website": "http://caffe.berkeleyvision.org/",
+            "gpu_requirements": "NVIDIA graphics card with CUDA Compute Capability 3.0 or higher",
+            "price": "Free and open source",
+            "release_date": "2013"
+        },
+        {
+            "name": "Keras",
+            "developer": "François Chollet and the Keras team",
+            "website": "https://keras.io/",
+            "gpu_requirements": "NVIDIA graphics card with CUDA Compute Capability 3.5 or higher",
+            "price": "Free and open source",
+            "release_date": "2015"
+        },
+        {
+            "name": "MXNet",
+            "developer": "Apache Software Foundation",
+            "website": "https://mxnet.apache.org/",
+            "gpu_requirements": "NVIDIA graphics card with CUDA Compute Capability 3.0 or higher",
+            "price": "Free and open source",
+            "release_date": "2015"
+        }
+    ],
+    "Graphic Design": [
+        {
+            "name": "Adobe Photoshop",
+            "developer": "Adobe Inc.",
+            "website": "https://www.adobe.com/products/photoshop.html",
+            "gpu_requirements": "NVIDIA graphics card with 2 GB or more VRAM",
+            "price": "Subscription-based",
+            "release_date": "1988"
+        },
+        {
+            "name": "Adobe Illustrator",
+            "developer": "Adobe Inc.",
+            "website": "https://www.adobe.com/products/illustrator.html",
+            "gpu_requirements": "NVIDIA graphics card with 1 GB or more VRAM",
+            "price": "Subscription-based",
+            "release_date": "1987"
+        },
+        {
+            "name": "Sketch",
+            "developer": "Sketch B.V.",
+            "website": "https://www.sketch.com/",
+            "gpu_requirements": "NVIDIA or AMD graphics card with 1 GB or more VRAM",
+            "price": "Subscription-based",
+            "release_date": "2010"
+        },
+        {
+            "name": "CorelDRAW",
+            "developer": "Corel Corporation",
+            "website": "https://www.coreldraw.com/",
+            "gpu_requirements": "NVIDIA or AMD graphics card with 2 GB or more VRAM",
+            "price": "Perpetual or subscription-based",
+            "release_date": "1989"
+        },
+        {
+            "name": "Affinity Designer",
+            "developer": "Serif",
+            "website": "https://affinity.serif.com/en-gb/designer/",
+            "gpu_requirements": "NVIDIA or AMD graphics card with 1 GB or more VRAM",
+            "price": "Perpetual or subscription-based",
+            "release_date": "2014"
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "NVIDIA GeForce GTX 1650": {
+      "price": 149,
+      "manufacturer": "NVIDIA",
+      "architecture": "Turing",
+      "core_count": 896,
+      "base_clock": "1485 MHz",
+      "boost_clock": "1665 MHz",
+      "memory": "4 GB GDDR5",
+      "memory_clock": "8 Gbps",
+      "memory_bandwidth": "128 GB/s",
+      "power_consumption": "75 W"
+    },
+    "NVIDIA GeForce GTX 1660 Super": {
+      "price": 229,
+      "manufacturer": "NVIDIA",
+      "architecture": "Turing",
+      "core_count": 1408,
+      "base_clock": "1530 MHz",
+      "boost_clock": "1785 MHz",
+      "memory": "6 GB GDDR6",
+      "memory_clock": "14 Gbps",
+      "memory_bandwidth": "336 GB/s",
+      "power_consumption": "125 W"
+    },
+    "NVIDIA GeForce RTX 3060": {
+      "price": 329,
+      "manufacturer": "NVIDIA",
+      "architecture": "Ampere",
+      "core_count": 3584,
+      "base_clock": "1320 MHz",
+      "boost_clock": "1777 MHz",
+      "memory": "12 GB GDDR6",
+      "memory_clock": "15 Gbps",
+      "memory_bandwidth": "360 GB/s",
+      "power_consumption": "170 W"
+    },
+    "NVIDIA GeForce RTX 3070 Ti": {
+      "price": 599,
+      "manufacturer": "NVIDIA",
+      "architecture": "Ampere",
+      "core_count": 6144,
+      "base_clock": "1575 MHz",
+      "boost_clock": "1770 MHz",
+      "memory": "8 GB GDDR6X",
+      "memory_clock": "19 Gbps",
+      "memory_bandwidth": "608 GB/s",
+      "power_consumption": "290 W"
+    },
+    "NVIDIA GeForce RTX 3080 Ti": {
+      "price": 1199,
+      "manufacturer": "NVIDIA",
+      "architecture": "Ampere",
+      "core_count": 10240,
+      "base_clock": "1365 MHz",
+      "boost_clock": "1665 MHz",
+      "memory": "12 GB GDDR6X",
+      "memory_clock": "19 Gbps",
+      "memory_bandwidth": "912 GB/s",
+      "power_consumption": "350 W"
+    },
+    "NVIDIA GeForce RTX 3090 Ti": {
+      "price": 1999,
+      "manufacturer": "NVIDIA",
+      "architecture": "Ampere",
+      "core_count": 10496,
+      "base_clock": "1395 MHz",
+      "boost_clock": "1695 MHz",
+      "memory": "24 GB GDDR6X",
+      "memory_clock": "19.5 Gbps",
+      "memory_bandwidth": "936 GB/s",
+      "power_consumption": "350 W"
+    }
+}
