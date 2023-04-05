@@ -1,8 +1,8 @@
 import json
-f = open('data/PCgames.json')
+f = open('./data/PCgames.json')
 data_PCgames = json.load(f)
 
-f = open('data/PCsoftware.json')
+f = open('./data/PCsoftware.json')
 data_PCsoftwares = json.load(f)
 
 gameslist = []
@@ -125,3 +125,28 @@ psu_options = {
     'NZXT C850': 149,
     'Thermaltake Toughpower PF1 ARGB 850W': 169
 }
+
+def return_gpudata(gpu):
+   f = open('./data/PCgpu.json')
+   data_PCgpu = json.load(f)
+   return(data_PCgpu[gpu])
+
+def return_cpudata(cpu):
+   f = open('./data/PCcpu.json')
+   data_PCcpu = json.load(f)
+   return(data_PCcpu[cpu])
+
+def return_mbdata(mb):
+   f = open('./data/PCmotherboard.json')
+   data_PCmb = json.load(f)
+   return(data_PCmb[mb])
+
+def return_coolingdata(cooling):
+   f = open('./data/PCcooling.json')
+   data_PCcooling = json.load(f)
+   return(data_PCcooling[cooling])
+
+def return_psudata(psu):
+   f = open('./data/PCpsu.json')
+   data_PCpsu = json.load(f)
+   return(data_PCpsu[psu])

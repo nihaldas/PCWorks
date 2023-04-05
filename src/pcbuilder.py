@@ -1,5 +1,6 @@
 import streamlit as st
 from asset import gameslist, softwarelist, faqs
+from asset import return_gpudata, return_cpudata, return_mbdata, return_coolingdata, return_psudata 
 from asset import cpu_options, gpu_options, mb_options, cooling_options, psu_options
 
 # Set up the page layout
@@ -60,10 +61,29 @@ elif user_type == "PC Build Station":
     
     else : 
         cpu_choice = st.sidebar.selectbox('CPU', list(cpu_options.keys()))
+        cpu_data = return_cpudata(cpu_choice)
+        st.write(cpu_choice)
+        st.write(cpu_data)
+
         gpu_choice = st.sidebar.selectbox('GPU', list(gpu_options.keys()))
+        gpu_data = return_gpudata(gpu_choice)
+        st.write(gpu_choice)
+        st.write(gpu_data)
+        
         mb_choice = st.sidebar.selectbox('Motherboard', list(mb_options.keys()))
+        mb_data = return_mbdata(mb_choice)
+        st.write(mb_choice)
+        st.write(mb_data)
+
         cooling_choice = st.sidebar.selectbox('Cooling', list(cooling_options.keys()))
+        cooling_data = return_coolingdata(cooling_choice)
+        st.write(cooling_choice)
+        st.write(cooling_data)
+
         psu_choice = st.sidebar.selectbox('Power Supply', list(psu_options.keys()))
+        psu_data = return_psudata(psu_choice)
+        st.write(psu_choice)
+        st.write(psu_data)
 
         # Calculate the total price
         total_price = cpu_options[cpu_choice] + gpu_options[gpu_choice] + mb_options[mb_choice] + cooling_options[cooling_choice] + psu_options[psu_choice]
