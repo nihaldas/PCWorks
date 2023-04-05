@@ -1,0 +1,86 @@
+{
+    "Noctua NH-D15": {
+      "Price": 89,
+      "Socket": "AM4, LGA1200, LGA1151, LGA1150, LGA1155, LGA2011-0/3, LGA2066",
+      "Dimensions": "160 x 150 x 135mm",
+      "Fan Size": "140mm",
+      "Max. Noise Level": "24.6 dBA",
+      "Max. Airflow": "82.5 CFM",
+      "Number of Fans": 2,
+      "Fan Speed": "300 - 1500 RPM",
+      "RGB Lighting": false
+    },
+    "Corsair iCUE H115i Elite Capellix": {
+      "Price": 169,
+      "Socket": "AM4, LGA1200, LGA1151, LGA1150, LGA1155, LGA2066",
+      "Dimensions": "322 x 137 x 27mm",
+      "Fan Size": "140mm",
+      "Max. Noise Level": "36 dBA",
+      "Max. Airflow": "97 CFM",
+      "Number of Fans": 2,
+      "Fan Speed": "400 - 2400 RPM",
+      "RGB Lighting": true
+    },
+    "NZXT Kraken X63": {
+      "Price": 149,
+      "Socket": "AM4, LGA1200, LGA1151, LGA1150, LGA1155, LGA2011-0/3, LGA2066",
+      "Dimensions": "315 x 143 x 30mm",
+      "Fan Size": "140mm",
+      "Max. Noise Level": "36 dBA",
+      "Max. Airflow": "98.17 CFM",
+      "Number of Fans": 2,
+      "Fan Speed": "500 - 2000 RPM",
+      "RGB Lighting": true
+    },
+    "Arctic Freezer 34 eSports DUO": {
+      "Price": 49,
+      "Socket": "AM4, LGA1200, LGA1151, LGA1150, LGA1155, LGA2011-0/3, LGA2066",
+      "Dimensions": "157 x 123 x 103mm",
+      "Fan Size": "120mm",
+      "Max. Noise Level": "33 dBA",
+      "Max. Airflow": "102.1 CFM",
+      "Number of Fans": 2,
+      "Fan Speed": "200 - 2100 RPM",
+      "RGB Lighting": true
+    },
+    "be quiet! Dark Rock Pro 4": {
+      "Price": 89,
+      "Socket": "AM4, LGA1200, LGA1151, LGA1150, LGA1155, LGA2011-0/3, LGA2066",
+      "Dimensions": "145.7 x 136 x 162.8mm",
+      "Fan Size": "120mm",
+      "Max. Noise Level": "24.3 dBA",
+      "Max. Airflow": "120.2 CFM",
+      "Number of Fans": 2,
+      "Fan Speed": "600 - 1500 RPM",
+      "RGB Lighting": false
+    },
+    
+    "Cooler Master MasterLiquid ML240L": {
+        "Price": 79,
+        "Radiator Size": "240mm",
+        "Fan Speed": "650 ~ 1800 RPM",
+        "Noise Level": "8 ~ 27 dBA",
+        "RGB Lighting": true
+    },
+    "Thermaltake Water 3.0 ARGB Sync": {
+        "Price": 129,
+        "Radiator Size": "360mm",
+        "Fan Speed": "500 ~ 1500 RPM",
+        "Noise Level": "25.8 ~ 36 dBA",
+        "RGB Lighting": true
+    },
+    "Deepcool Gammaxx GT BK": {
+        "Price": 49,
+        "Height": "156 mm",
+        "Fan Speed": "500 ~ 1500 RPM",
+        "Noise Level": "17.8 ~ 27 dBA",
+        "RGB Lighting": true
+    },
+    "Corsair Hydro Series H100i": {
+        "Price": 159,
+        "Radiator Size": "240mm",
+        "Fan Speed": "400 ~ 2400 RPM",
+        "Noise Level": "10 ~ 37 dBA",
+        "RGB Lighting": true
+    }        
+}

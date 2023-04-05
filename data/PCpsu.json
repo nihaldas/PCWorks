@@ -1,0 +1,106 @@
+{
+    "EVGA SuperNOVA 850 GA": {
+      "Price": 139,
+      "Wattage": 850,
+      "Modular": true,
+      "80 Plus Rating": "Gold",
+      "Form Factor": "ATX",
+      "Fan Size": "135mm",
+      "Connectors": {
+        "ATX 24-Pin": true,
+        "EPS12V 8-Pin": true,
+        "EPS12V 4+4-Pin": true,
+        "PCIe 8-Pin": 2,
+        "SATA Power": 10,
+        "Peripheral 4-Pin": 4,
+        "Floppy Power": false
+      },
+      "Dimensions": "150mm x 150mm x 86mm"
+    },
+    "Corsair RM850x": {
+      "Price": 149,
+      "Wattage": 850,
+      "Modular": true,
+      "80 Plus Rating": "Gold",
+      "Form Factor": "ATX",
+      "Fan Size": "135mm",
+      "Connectors": {
+        "ATX 24-Pin": true,
+        "EPS12V 8-Pin": true,
+        "EPS12V 4+4-Pin": true,
+        "PCIe 8-Pin": 6,
+        "SATA Power": 10,
+        "Peripheral 4-Pin": 4,
+        "Floppy Power": false
+      },
+      "Dimensions": "160mm x 150mm x 86mm"
+    },
+    "Seasonic PRIME TX-850": {
+      "Price": 219,
+      "Wattage": 850,
+      "Modular": true,
+      "80 Plus Rating": "Titanium",
+      "Form Factor": "ATX",
+      "Fan Size": "135mm",
+      "Connectors": {
+        "ATX 24-Pin": true,
+        "EPS12V 8-Pin": true,
+        "EPS12V 4+4-Pin": true,
+        "PCIe 8-Pin": 6,
+        "SATA Power": 12,
+        "Peripheral 4-Pin": 6,
+        "Floppy Power": false
+      },
+      "Dimensions": "170mm x 150mm x 86mm"
+    },
+    "be quiet! Straight Power 11 850W": {
+      "Price": 159,
+      "Wattage": 850,
+      "Modular": true,
+      "80 Plus Rating": "Gold",
+      "Form Factor": "ATX",
+      "Fan Size": "135mm",
+      "Connectors": {
+        "ATX 24-Pin": true,
+        "EPS12V 8-Pin": true,
+        "EPS12V 4+4-Pin": true,
+        "PCIe 8-Pin": 4,
+        "SATA Power": 9,
+        "Peripheral 4-Pin": 4,
+        "Floppy Power": false
+      },
+      "Dimensions": "160mm x 150mm x 86mm"
+    },
+    "NZXT C850": {
+        "Price": 149,
+        "Wattage": 850,
+        "80+ Certification": "Gold",
+        "Modular": "Fully Modular",
+        "Dimensions": "150 x 160 x 86mm",
+        "Connectors": {
+            "Motherboard": "1 x 24-pin ATX, 2 x 8-pin (4+4) EPS",
+            "GPU": "6 x 8-pin (6+2) PCIe",
+            "SATA": "8 x SATA",
+            "Peripheral": "3 x 4-pin Molex"
+        },
+        "Fan Size": "140mm",
+        "Zero RPM Fan Mode": true,
+        "Warranty": "10 years"
+    },
+    "Thermaltake Toughpower PF1 ARGB 850W": {
+        "Price": 169,
+        "Wattage": 850,
+        "80+ Certification": "Gold",
+        "Modular": "Fully Modular",
+        "Dimensions": "150 x 160 x 86mm",
+        "Connectors": {
+            "Motherboard": "1 x 24-pin ATX, 2 x 8-pin (4+4) EPS",
+            "GPU": "6 x 8-pin (6+2) PCIe",
+            "SATA": "12 x SATA",
+            "Peripheral": "3 x 4-pin Molex"
+        },
+        "Fan Size": "140mm",
+        "Zero RPM Fan Mode": false,
+        "Warranty": "10 years"
+    }
+}
