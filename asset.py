@@ -1,8 +1,8 @@
 import json
-f = open('PCgames.json')
+f = open('data/PCgames.json')
 data_PCgames = json.load(f)
 
-f = open('PCsoftware.json')
+f = open('data/PCsoftware.json')
 data_PCsoftwares = json.load(f)
 
 gameslist = []
