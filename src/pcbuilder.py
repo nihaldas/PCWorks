@@ -7,21 +7,21 @@ from asset import cpu_options, gpu_options, mb_options, cooling_options, psu_opt
 st.set_page_config(page_title='Custom PC Builder', page_icon='💻')
 
 #st.sidebar.write("Are you a seller or a buyer?")
-user_type = st.sidebar.radio("", ["Welcome", "PC Build Station"])
+user_type = st.sidebar.radio("", ["Welcome", "PC Works"])
 
 if user_type == "Welcome":
     html_code = """
     <div style="background-color:#F8F8F8;padding:10px;border-radius:5px">
-        <h2 style="color:#3D405B;">PCWorks</h2>
+        <h2 style="color:#3D405B;">VyaparX : PCWorks</h2>
         <p style="color:#4C4C4C;">Welcome to PCWorks, your one stop place for all 
-        your custom PC needs. From buying new or old parts to selling, from helping you build 
+        your custom PC needs brought to you by VyaparX. From buying new or old parts to selling, from helping you build 
         your own PC to lifetime support. We provide all the services</p>
     </div>
     """
     # Display the HTML code in your Streamlit app
     st.markdown(html_code, unsafe_allow_html=True)
 
-elif user_type == "PC Build Station":
+elif user_type == "PC Works":
     html_code = """
     <div style="background-color:#F8F8F8;padding:10px;border-radius:5px">
         <h2 style="color:#3D405B;">PCWorks Build Station</h2>
