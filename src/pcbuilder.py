@@ -3,6 +3,9 @@ from asset import gameslist, softwarelist, faqs
 from asset import return_gpudata, return_cpudata, return_mbdata, return_coolingdata, return_psudata 
 from asset import cpu_options, gpu_options, mb_options, cooling_options, psu_options
 import json
+import datetime
+
+
 
 # Set up the page layout
 st.set_page_config(page_title='Custom PC Builder', page_icon='💻')
@@ -149,12 +152,19 @@ if user_type2 == "Buyer":
 
             # Add a "Build PC" button
             if st.button('Create Json File'):
+                            # Get the current date and time
+                now = datetime.datetime.now()
+                created_at = now.strftime("%d_%m_%Y_%H_%M_%S")
                 st.write('Your custom PC Order has been created! A google response form will be sent to you shorty!! Thanks for shopping with us :) ')
                 order_json = {"cpu_choice":cpu_choice, "gpu_choice":gpu_choice,
                               "mb_choice":mb_choice, "cooling_choice":cooling_choice,
-                               "psu_choice":psu_choice, "Total Price":82.5*total_price }
+                               "psu_choice":psu_choice, "Total Price":82.5*total_price,
+                                "created_at": created_at}
 
                 st.write(order_json)
+                # Save the JSON object to a file
+                with open(f'data/orders/order_{created_at}.json', 'w') as f:
+                    json.dump(order_json, f)
                 
             st.text('Please note: Because we regularly update Prices and Availability,\nPrice-Point Build-Configurations can vary. PCWorks Build Station is \nreader-supported. When you buy through our links, at no extra cost to you,\nwe may earn an affiliate commission.')
 
