@@ -23,9 +23,9 @@ html_code = """
 
 # # Set the image path
 
-image = Image.open('logo.png')
+# image = Image.open('logo.png')
 
-st.image(image, caption='VyaparX')
+# st.image(image, caption='VyaparX')
 # # Add the image to the sidebar
 
 # # Display the HTML code in your Streamlit app
