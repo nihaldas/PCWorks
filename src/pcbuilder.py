@@ -20,10 +20,10 @@ html_code = """
 """
 
 # # Set the image path
-# image_path = "logo.png"
+image_path = "logo.png"
 
 # # Add the image to the sidebar
-# st.sidebar.image(image_path, use_column_width=True)
+st.sidebar.image(image_path, use_column_width=True)
 # # Display the HTML code in your Streamlit app
 # st.markdown(html_code, unsafe_allow_html=True)
 
