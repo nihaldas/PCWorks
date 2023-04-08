@@ -23,7 +23,7 @@ if user_type2 == "Buyer":
     user_type = st.sidebar.radio("", ["Products" ,"PC Works", "Cart", "Order Status"])
     if user_type == "Products":
         # Define the list of JSON files to display
-        files = ["data/PCcooling.json", "data/PCcpu.json", "data/PCgpu.json", "data/PCmotherboard.json", "data/PCpsu.json"]
+        files = ["data/PCcooling.json", "data/PCcpu.json", "data/PCgpu.json", "data/PCmotherboard.json", "data/PCpsu.json", "data/PCgames.json", "data/PCsoftware.json"]
 
         # Loop through each file and display its contents
         for file in files:
@@ -33,35 +33,37 @@ if user_type2 == "Buyer":
             with open(file, "r") as f:
                 data = json.load(f)
             
-            # Display the JSON data
-            st.write(data)  
-    elif user_type == "Cart":
-        # Define a dictionary of products and prices
-        products = {"Product 1": 10.99, "Product 2": 25.99, "Product 3": 7.99}
+            # for key in data.keys():
+            #     st.write(key)
+            # # Display the JSON data
+            st.write(data.keys())  
+    # elif user_type == "Cart":
+    #     # Define a dictionary of products and prices
+    #     products = {"Product 1": 10.99, "Product 2": 25.99, "Product 3": 7.99}
 
-        # Initialize an empty list to store the items in the cart
-        cart_items = []
+    #     # Initialize an empty list to store the items in the cart
+    #     cart_items = []
 
-        # Create a sidebar to display the cart
-        st.sidebar.title("Cart")
+    #     # Create a sidebar to display the cart
+    #     st.sidebar.title("Cart")
 
-        # Loop through each product and add it to the page
-        for product, price in products.items():
-            # Create a button to add the product to the cart
-            if st.button(f"Add {product} - ${price:.2f}"):
-                cart_items.append(product)
-                st.success(f"{product} added to cart!")
+    #     # Loop through each product and add it to the page
+    #     for product, price in products.items():
+    #         # Create a button to add the product to the cart
+    #         if st.button(f"Add {product} - ${price:.2f}"):
+    #             cart_items.append(product)
+    #             st.success(f"{product} added to cart!")
             
-            # Display the product and its price
-            st.write(f"{product} - ${price:.2f}")
+    #         # Display the product and its price
+    #         st.write(f"{product} - ${price:.2f}")
 
-        # Display the contents of the cart
-        st.sidebar.write("Items in cart:")
-        if not cart_items:
-            st.sidebar.write("Your cart is empty.")
-        else:
-            for item in cart_items:
-                st.sidebar.write(f"- {item}")
+    #     # Display the contents of the cart
+    #     st.sidebar.write("Items in cart:")
+    #     if not cart_items:
+    #         st.sidebar.write("Your cart is empty.")
+    #     else:
+    #         for item in cart_items:
+    #             st.sidebar.write(f"- {item}")
 
 
     elif user_type == "PC Works":
@@ -146,9 +148,14 @@ if user_type2 == "Buyer":
             #     st.write('Your custom PC has been diagonised by our BuildGPT expert. Here is the detailed analysis of the your build:')
 
             # Add a "Build PC" button
-            if st.button('Add to Cart'):
+            if st.button('Create Json File'):
                 st.write('Your custom PC Order has been created! A google response form will be sent to you shorty!! Thanks for shopping with us :) ')
+                order_json = {"cpu_choice":cpu_choice, "gpu_choice":gpu_choice,
+                              "mb_choice":mb_choice, "cooling_choice":cooling_choice,
+                               "psu_choice":psu_choice, "Total Price":82.5*total_price }
 
+                st.write(order_json)
+                
             st.text('Please note: Because we regularly update Prices and Availability,\nPrice-Point Build-Configurations can vary. PCWorks Build Station is \nreader-supported. When you buy through our links, at no extra cost to you,\nwe may earn an affiliate commission.')
 
     else :
