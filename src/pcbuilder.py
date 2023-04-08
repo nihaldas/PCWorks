@@ -2,12 +2,13 @@ import streamlit as st
 from asset import gameslist, softwarelist, faqs
 from asset import return_gpudata, return_cpudata, return_mbdata, return_coolingdata, return_psudata 
 from asset import cpu_options, gpu_options, mb_options, cooling_options, psu_options
+import json
 
 # Set up the page layout
 st.set_page_config(page_title='Custom PC Builder', page_icon='💻')
 
 #st.sidebar.write("Are you a seller or a buyer?")
-user_type = st.sidebar.radio("", ["Welcome", "PC Works"])
+user_type = st.sidebar.radio("", ["Welcome", "Products" ,"PC Works", "Cart", "Order Status"])
 
 if user_type == "Welcome":
     html_code = """
@@ -20,6 +21,51 @@ if user_type == "Welcome":
     """
     # Display the HTML code in your Streamlit app
     st.markdown(html_code, unsafe_allow_html=True)
+
+elif user_type == "Products":
+    
+    # Define the list of JSON files to display
+    files = ["data/PCcooling.json", "data/PCcpu.json", "data/PCgpu.json", "data/PCmotherboard.json", "data/PCpsu.json"]
+
+    # Loop through each file and display its contents
+    for file in files:
+        st.write(f"Displaying contents of {file}:")
+        
+        # Load the JSON file
+        with open(file, "r") as f:
+            data = json.load(f)
+        
+        # Display the JSON data
+        st.write(data)  
+
+elif user_type == "Cart":
+    # Define a dictionary of products and prices
+    products = {"Product 1": 10.99, "Product 2": 25.99, "Product 3": 7.99}
+
+    # Initialize an empty list to store the items in the cart
+    cart_items = []
+
+    # Create a sidebar to display the cart
+    st.sidebar.title("Cart")
+
+    # Loop through each product and add it to the page
+    for product, price in products.items():
+        # Create a button to add the product to the cart
+        if st.button(f"Add {product} - ${price:.2f}"):
+            cart_items.append(product)
+            st.success(f"{product} added to cart!")
+        
+        # Display the product and its price
+        st.write(f"{product} - ${price:.2f}")
+
+    # Display the contents of the cart
+    st.sidebar.write("Items in cart:")
+    if not cart_items:
+        st.sidebar.write("Your cart is empty.")
+    else:
+        for item in cart_items:
+            st.sidebar.write(f"- {item}")
+
 
 elif user_type == "PC Works":
     html_code = """
@@ -103,7 +149,7 @@ elif user_type == "PC Works":
         #     st.write('Your custom PC has been diagonised by our BuildGPT expert. Here is the detailed analysis of the your build:')
 
         # Add a "Build PC" button
-        if st.button('Place Order'):
+        if st.button('Add to Cart'):
             st.write('Your custom PC Order has been created! A google response form will be sent to you shorty!! Thanks for shopping with us :) ')
 
         st.text('Please note: Because we regularly update Prices and Availability,\nPrice-Point Build-Configurations can vary. PCWorks Build Station is \nreader-supported. When you buy through our links, at no extra cost to you,\nwe may earn an affiliate commission.')
