@@ -19,13 +19,13 @@ html_code = """
 </div>
 """
 
-# Set the image path
-image_path = "logo.png"
+# # Set the image path
+# image_path = "logo.png"
 
-# Add the image to the sidebar
-st.sidebar.image(image_path, use_column_width=True)
-# Display the HTML code in your Streamlit app
-st.markdown(html_code, unsafe_allow_html=True)
+# # Add the image to the sidebar
+# st.sidebar.image(image_path, use_column_width=True)
+# # Display the HTML code in your Streamlit app
+# st.markdown(html_code, unsafe_allow_html=True)
 
 user_type2 = st.sidebar.radio("", ["Buyer","Seller"])
 
