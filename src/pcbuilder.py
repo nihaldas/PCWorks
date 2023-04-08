@@ -4,6 +4,8 @@ from asset import return_gpudata, return_cpudata, return_mbdata, return_coolingd
 from asset import cpu_options, gpu_options, mb_options, cooling_options, psu_options
 import json
 import datetime
+from PIL import Image
+
 
 global order_json
 
@@ -20,10 +22,12 @@ html_code = """
 """
 
 # # Set the image path
-image_path = "logo.png"
 
+image = Image.open('logo.jpg')
+
+st.image(image, caption='VyaparX')
 # # Add the image to the sidebar
-st.sidebar.image(image_path, use_column_width=True)
+
 # # Display the HTML code in your Streamlit app
 # st.markdown(html_code, unsafe_allow_html=True)
 
