@@ -23,7 +23,7 @@ html_code = """
 
 # # Set the image path
 
-image = Image.open('logo.jpg')
+image = Image.open('logo.png')
 
 st.image(image, caption='VyaparX')
 # # Add the image to the sidebar
