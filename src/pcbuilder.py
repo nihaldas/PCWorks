@@ -5,7 +5,7 @@ from asset import cpu_options, gpu_options, mb_options, cooling_options, psu_opt
 import json
 import datetime
 
-
+global order_json
 
 # Set up the page layout
 st.set_page_config(page_title='Custom PC Builder', page_icon='💻')
@@ -18,8 +18,15 @@ html_code = """
     your own PC to lifetime support. We provide all the services</p>
 </div>
 """
+
+# Set the image path
+image_path = "logo.png"
+
+# Add the image to the sidebar
+st.sidebar.image(image_path, use_column_width=True)
 # Display the HTML code in your Streamlit app
 st.markdown(html_code, unsafe_allow_html=True)
+
 user_type2 = st.sidebar.radio("", ["Buyer","Seller"])
 
 if user_type2 == "Buyer":
@@ -40,33 +47,7 @@ if user_type2 == "Buyer":
             #     st.write(key)
             # # Display the JSON data
             st.write(data.keys())  
-    # elif user_type == "Cart":
-    #     # Define a dictionary of products and prices
-    #     products = {"Product 1": 10.99, "Product 2": 25.99, "Product 3": 7.99}
-
-    #     # Initialize an empty list to store the items in the cart
-    #     cart_items = []
-
-    #     # Create a sidebar to display the cart
-    #     st.sidebar.title("Cart")
-
-    #     # Loop through each product and add it to the page
-    #     for product, price in products.items():
-    #         # Create a button to add the product to the cart
-    #         if st.button(f"Add {product} - ${price:.2f}"):
-    #             cart_items.append(product)
-    #             st.success(f"{product} added to cart!")
-            
-    #         # Display the product and its price
-    #         st.write(f"{product} - ${price:.2f}")
-
-    #     # Display the contents of the cart
-    #     st.sidebar.write("Items in cart:")
-    #     if not cart_items:
-    #         st.sidebar.write("Your cart is empty.")
-    #     else:
-    #         for item in cart_items:
-    #             st.sidebar.write(f"- {item}")
+    
 
 
     elif user_type == "PC Works":
@@ -167,7 +148,33 @@ if user_type2 == "Buyer":
                     json.dump(order_json, f)
                 
             st.text('Please note: Because we regularly update Prices and Availability,\nPrice-Point Build-Configurations can vary. PCWorks Build Station is \nreader-supported. When you buy through our links, at no extra cost to you,\nwe may earn an affiliate commission.')
+    elif user_type == "Cart":
+        # Define a dictionary of products and prices
+        products = {"Product 1": order_json}
 
+        # Initialize an empty list to store the items in the cart
+        cart_items = []
+
+        # Create a sidebar to display the cart
+        st.sidebar.title("Cart")
+
+        # Loop through each product and add it to the page
+        for product, price in products.items():
+            # Create a button to add the product to the cart
+            if st.button(f"Add {product} - ${price:.2f}"):
+                cart_items.append(product)
+                st.success(f"{product} added to cart!")
+            
+            # Display the product and its price
+            st.write(f"{product} - ${price:.2f}")
+
+        # Display the contents of the cart
+        st.sidebar.write("Items in cart:")
+        if not cart_items:
+            st.sidebar.write("Your cart is empty.")
+        else:
+            for item in cart_items:
+                st.sidebar.write(f"- {item}")
     else :
         st.write("# Custom PC Build Seller")
         st.write("Welcome, seller! Please fill out the following form to list your custom PC build for sale.")
