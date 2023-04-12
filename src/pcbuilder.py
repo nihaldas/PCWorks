@@ -14,7 +14,6 @@ st.set_page_config(page_title='Custom PC Builder', page_icon='💻')
 
 html_code = """
 <div style="background-color:#F8F8F8;padding:10px;border-radius:5px">
-    <img src="logo-white.png" alt="My Image">
     <h2 style="color:#3D405B;">VyaparX : PCWorks</h2>
     <p style="color:#4C4C4C;">Welcome to PCWorks, your one stop place for all 
     your custom PC needs brought to you by VyaparX. From buying new or old parts to selling, from helping you build 
